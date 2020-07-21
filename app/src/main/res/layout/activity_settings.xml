@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4F58451"
+    tools:context=".Settings">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        android:minHeight="?attr/actionBarSize"
+        app:cardCornerRadius="10dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E4AB8C"
+            android:elevation="5dp"
+            android:theme="@style/OverlayTheme"></android.support.v7.widget.Toolbar>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="5dp"
+        android:background="#C7D78E"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="8dp"
+            android:background="#C7D78E"
+            android:elevation="10dp"
+            android:src="@drawable/ic_blur_circular_black_24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="Pantauan \nRadius"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:hint="radius"
+            android:inputType="number"
+            android:text="250"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:fontFamily="sans-serif"
+            android:text="meter"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="5dp"
+        android:background="#C8D88F"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="8dp"
+            android:background="#C6D68D"
+            android:elevation="10dp"
+            android:src="@drawable/ic_phone_android_black_24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="Nomor Telepon"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_margin="5dp"
+            android:ems="6"
+            android:hint="masukan nomor"
+            android:inputType="phone"
+            android:maxLength="12"
+            android:textColor="@android:color/black" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:elevation="5dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/make_call"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C7D78E"
+                android:clickable="true"
+                android:elevation="10dp"
+                android:src="@drawable/ic_phone_black_24dp" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+</FrameLayout>

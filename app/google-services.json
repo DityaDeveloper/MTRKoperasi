@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "358791842328",
+    "firebase_url": "https://mtrkoperasi.firebaseio.com",
+    "project_id": "mtrkoperasi",
+    "storage_bucket": "mtrkoperasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358791842328:android:5a608cf4fab739d0",
+        "android_client_info": {
+          "package_name": "aip.multi.mtrkoperasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358791842328-mgad2vqbn83eahivaaggj355gi9tr28l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "aip.multi.mtrkoperasi",
+            "certificate_hash": "b2ab3c6acd32e0e2dea4c4b17fe29531684064e7"
+          }
+        },
+        {
+          "client_id": "358791842328-6nruenguquoharaskt1beq6mb995k2lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ5qRwze9wD_2AfTn-jaJCFR2G02PA8e8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358791842328-6nruenguquoharaskt1beq6mb995k2lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
